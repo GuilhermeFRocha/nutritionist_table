@@ -18,6 +18,8 @@
 		<main>
 			<section class="container">
 				<h2>Meus pacientes</h2>
+				<label for="filtrar-tabela">Filtre</label>
+				<input type="text" nome="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente">
 				<table>
 					<thead>
 						<tr>
@@ -74,6 +76,8 @@
 
 			<section class="container">
 				<h2 id="titulo-form">Adicionar novo paciente</h2>
+				<ul id="mensagens-erro">
+				</ul>
 				<form id="form-adiciona">
 						<div class="grupo">
 								<label for="nome">Nome:</label>
@@ -99,6 +103,7 @@
 
 		<script src="./js/script.js"></script>
 		<script src="./js/form.js"></script>
-
+		<script src="./js/remover-pacientes.js"></script>
+		<script src="./js/filtra.js"></script>
 	</body>
 </html>
