@@ -38,10 +38,6 @@ header .container:before{
 	margin: 0 auto;
 }
 
-.container h1 {
-	text-align: center;
-}
-
 section{
 	margin: 2em 0;
 	overflow: hidden;
@@ -137,7 +133,7 @@ button[disabled=disabled], button:disabled {
 	border: 1px solid red;
 }
 
-.paciente_invalido {
+.paciente-invalido {
 	background-color: lightcoral;
 }
 
@@ -148,7 +144,6 @@ button[disabled=disabled], button:disabled {
 .fadeOut {
 	opacity: 0;
 	transition: 0.5s;
-	
 }
 
 #filtrar-tabela {
@@ -157,11 +152,13 @@ button[disabled=disabled], button:disabled {
 	margin-bottom: 10px;
 }
 
-
 .invisivel {
 	display: none;
 }
 
 
-
-
+#titulo {
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
